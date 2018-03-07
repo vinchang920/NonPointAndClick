@@ -1,0 +1,26 @@
+def move ( str ):
+    "move function"
+    print("you moved to" location)
+    return
+
+def inspect ( str):
+    "function for inspecting items"
+    print("you inspect" item "closer"
+    return
+
+def talk ( str ):
+    "function for interacting with NPCs"
+    print(dialogue)
+    return
+          
+
+def inventory (str):
+    "for inspecting items in player's possesion"
+    print(inventory)
+    return
+    
+
+
+
+
+  some keywords with some sample logic that we could use
