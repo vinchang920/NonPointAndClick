@@ -1,6 +1,6 @@
 This is for all of the research that we are doing right now.  
 Status:  
-Current Research:
+  Current Research:
 - none  
 Currently Need Help:
 - none  
