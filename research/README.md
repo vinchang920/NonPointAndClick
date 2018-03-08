@@ -1,7 +1,8 @@
 This is for all of the research that we are doing right now.  
-Current Research:  
+Status:  
+Current Research:
 - none  
-Currently Need Help:  
+Currently Need Help:
 - none  
-Completed Research:  
+Completed Research: 
 - none  
