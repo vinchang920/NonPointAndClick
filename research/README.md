@@ -1,6 +1,6 @@
 ## All the research that we are currently doing
 Current Research:
-- return types with classes  
+- none
 
 Help Needed:
 - none
