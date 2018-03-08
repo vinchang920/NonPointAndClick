@@ -1,8 +1,8 @@
 ## All the research that we are currently doing
 ______
 Current Research:
-- none
+- none  
 Help Needed:
-- none
+- none  
 Completed Research:
-- none
+- none  
