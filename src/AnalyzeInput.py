@@ -46,7 +46,19 @@ class AnalyzeInput(object):
                 suffix = " the old man, RIP"
             else:
                 suffix = " or you used an incorrect format, please try again"
-        
+
+        #Interaction
+        elif keyword =='talk':
+            prefix = "You are talking to"
+            otherWord=sentence[1:]
+            suffix = ''
+            #NPC's
+            if otherWord == ['the' , 'old', 'man'] or otherWord ==['to', 'the', 'old', 'man']:
+                suffix =  " the old man, he says "
+            else:
+                prefix = "You used an incorrect format or tried to talk to a non-existent entity, please try again."
+                
+            
         #They Goofed         
         else:
             prefix = "You used an incorrect keyword"
