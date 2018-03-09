@@ -1,0 +1,15 @@
+
+
+This is a attack funciton 
+used tutorials point
+
+def attack(str):
+  "use to attack your target"
+  print("you have" health "and" attack)
+  print("Your target has" health "and" attack)
+  fight = input('do you still want to fight? (y/n)')
+  if(fight=='yes'or fight=='y' or fight=='Y' or fight == 'Yes'):
+        a = True
+        option1('what do you want to do? (swing, inventory, run)
+    elif(fight == 'no' or fight =='N' or fight=='n' or fight == 'No'):
+        a = False
