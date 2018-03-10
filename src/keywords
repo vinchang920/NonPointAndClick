@@ -1,0 +1,14 @@
+#Keywords 
+
+'attack' - this keyword allows the user to attack the target
+  +'run' - this keyword will allow a user to flee from the battle
+  +'swing' - this keyword will trigger the player's attack
+  +'inventory' - this keyword will allow the player to access the inventory during battle
+
+'travel' - this keywowrd allows the user to travel to a desired destination
+
+'examine' - this keyword will trigger a description of an item and allow the user to exmaine an item in greater detail
+
+'inventory' - this keyword will allow the user to open the inventory and look at the list of items in the user's possesion
+
+'talk' - this keyword will allow the user to interact with NPC's
