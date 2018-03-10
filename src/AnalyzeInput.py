@@ -34,7 +34,7 @@ class AnalyzeInput(object):
             if otherWord == ['the', 'courtyard'] or otherWord == ['to', 'the', 'courtyard']:
                 suffix = " to the courtyard, good luck!"
             else:
-                suffix = " or you used an incorrect format, please try again"
+                prefix = " you used an incorrect format or tried to travel to a place you couldn't travel to, please try again"
             
         #Attack
         elif keyword == 'attack':
@@ -45,7 +45,7 @@ class AnalyzeInput(object):
             if otherWord == ['the', 'old',  'man']:
                 suffix = " the old man, RIP"
             else:
-                suffix = " or you used an incorrect format, please try again"
+                prefix = " you used an incorrect format or tried to attack something you can't attack, please try again"
 
         #Interaction
         elif keyword =='talk':
