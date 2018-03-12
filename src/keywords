@@ -12,3 +12,5 @@
 'inventory' - this keyword will allow the user to open the inventory and look at the list of items in the user's possesion
 
 'talk' - this keyword will allow the user to interact with NPC's
+
+'location' - this keyword will display the current location of the player in case they get lost
