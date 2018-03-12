@@ -2,7 +2,7 @@
 Current Research:
 - Dictionaries (Grey put something here so you don't look like a slacker)
 - String formatting operator (%)
-- Misc. Class Stuff
+- Class variable calling and priority
 
 Help Needed:
 - none
