@@ -1,4 +1,4 @@
 I was thinking we could use this for name of the main character or something else, will probably be useful
 %s can be used for strings
 You can use them like this
-print("My name is %s" % ('variable'))
+print("My name is %s" % (name))
