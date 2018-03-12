@@ -1,0 +1,5 @@
+You can use the global variable and nonlocal variables to set presence
+global name
+name = 'snek'
+
+this should be global but for some reason it isn't
