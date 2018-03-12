@@ -1,5 +1,6 @@
 #Seth Doubek 3/8/18
 class AnalyzeInput(object):
+    currentLocation = ""
 
     def __init__(self, text):
         self.text = str.lower(text)
@@ -23,18 +24,29 @@ class AnalyzeInput(object):
         #This detects the first word
         keyword = sentence[0]
         prefix = ''
-        #Change Location
+        
+        #Travel
         if keyword == 'travel':
             prefix = "You are traveling to"
-            #This detects for other words
             otherWord = sentence[1:]
             suffix = ''
             #Locations
             #The Courtyard
+            currentLocation = ''
             if otherWord == ['the', 'courtyard'] or otherWord == ['to', 'the', 'courtyard']:
                 suffix = " to the courtyard, good luck!"
+                global currentlocation
+                currentLocation = 'courtyard'
             else:
-                prefix = " you used an incorrect format or tried to travel to a place you couldn't travel to, please try again"
+                suffix = " or you used an incorrect format, please try again"
+
+        #Location
+        elif keyword == 'location':
+            prefix = "You are currently in "
+            otherWord = sentence[1:]
+            suffix = ''
+            suffix = AnalyzeInput.currentLocation
+            
             
         #Attack
         elif keyword == 'attack':
@@ -45,23 +57,12 @@ class AnalyzeInput(object):
             if otherWord == ['the', 'old',  'man']:
                 suffix = " the old man, RIP"
             else:
-                prefix = " you used an incorrect format or tried to attack something you can't attack, please try again"
-
-        #Interaction
-        elif keyword =='talk':
-            prefix = "You are talking to"
-            otherWord=sentence[1:]
-            suffix = ''
-            #NPC's
-            if otherWord == ['the' , 'old', 'man'] or otherWord ==['to', 'the', 'old', 'man']:
-                suffix =  " the old man, he says "
-            else:
-                prefix = "You used an incorrect format or tried to talk to a non-existent entity, please try again."
-                
-            
+                suffix = " or you used an incorrect format, please try again"
+        
         #They Goofed         
         else:
             prefix = "You used an incorrect keyword"
+            suffix = ", Try again"
             
         #Objects
         print(prefix + suffix)
