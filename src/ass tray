@@ -1,0 +1,30 @@
+#ASCII ART
+- this is what will appear when the keyword 'examine' is used
+- a description of the item will be printed under the image
+
+print(                    ) 
+print(                    )
+print(                    )
+print(  "      /  \  "    )
+print( "      |    | "    )
+print( "      |    | "    )
+print( "      |    | "    )
+print( "      |    | "    )
+print( "      |    | "    )
+print( "      |    | "    )
+print( "      |    | "    )
+print( "      |    | "    )
+print( "      |    | "    )
+print( "      |    | "    )
+print( "      |    | "    )
+print( "      |    | "    )
+print( "  ____|____|____ "    )
+print( "  \ ___ OOF___ / "   )
+print( "        ()    "         )
+print( "        ()    "         )
+print( "        ()    "         )
+print( "        ()    "         )
+print( "       (  ) "       )
+
+print( "sword called "oof"")
+print("")
