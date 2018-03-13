@@ -1,7 +1,7 @@
 #ASCII ART
 - this is what will appear when the keyword 'examine' is used
 - a description of the item will be printed under the image
-
+#SWORD
 print(                    ) 
 print(                    )
 print(                    )
@@ -28,3 +28,25 @@ print( "       (  ) "       )
 
 print( "sword called "oof"")
 print("")
+
+#SIG N POST
+print(                                     )
+print(                                     )
+print(     " ____________________________ " )
+print(     "|       ~~~~~~~~~~~~~        |")
+print(     "|         SIGN POST          |")
+print(     "|       ~~~~~~~~~~~~~        |")
+print(     "|    XXX XXXXXXXXXXX XX      |")
+print(     "|     XXXXXXX XXX XXX XX     |")
+print(     "|     XX XXXX XXXXX XXX      |")
+print(     "|____________________________|")
+print(     "             | |              ")
+print(     "             | |              ")
+print(     "             | |              ")
+print(     "             | |              ")
+print(     "             | |              ")
+print( You read the sign post")
+print("")
+- this is super versatile cuz you can put pretty much whatever you want in the description
+
+
