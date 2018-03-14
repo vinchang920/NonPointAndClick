@@ -11,7 +11,6 @@ import AnalyzeInput
 #picked up, shouldn't be modified here
 playerStrength = 5
 playerHealth = 20
-AnalyzeInput.currentLocation = "The first spot since grug hasn't told me"
 inventory = ['dull blade', ] #If we have one
 
 #SD

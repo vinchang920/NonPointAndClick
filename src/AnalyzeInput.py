@@ -1,9 +1,10 @@
+import Objects
 #Seth Doubek 3/8/18
 class AnalyzeInput(object):
-    currentLocation = ""
+    currentLocation = "Starting place"
 
-    def __init__(self, text):
-        self.text = str.lower(text)
+    def __init__(self, userTyped):
+        self.text = str.lower(userTyped)
     
     #This puts the sentence into a list of words
     def analyzeText(self):
@@ -35,10 +36,9 @@ class AnalyzeInput(object):
             currentLocation = ''
             if otherWord == ['the', 'courtyard'] or otherWord == ['to', 'the', 'courtyard']:
                 suffix = " to the courtyard, good luck!"
-                global currentlocation
-                currentLocation = 'courtyard'
+                AnalyzeInput.currentLocation = 'courtyard'
             else:
-                suffix = " or you used an incorrect format, please try again"
+                suffix = "an incorrect place, try again"
 
         #Location
         elif keyword == 'location':
@@ -57,7 +57,20 @@ class AnalyzeInput(object):
             if otherWord == ['the', 'old',  'man']:
                 suffix = " the old man, RIP"
             else:
-                suffix = " or you used an incorrect format, please try again"
+                suffix = "an incorrect entity, try again"
+
+        #Examine
+        elif keyword == 'examine':
+            prefix = ''
+            otherWord = sentence[1:]
+            suffix = ''
+            #Items
+            if otherWord == ['sword', 'of', 'oof'] or otherWord == ['the', 'sword', 'of', 'oof']:
+                name = 'sword of oof'
+                examinedObject = Objects.Objects(name, keyword)
+                examinedObject.displaySwordOfOof
+            else:
+                suffix = 'you entered an incorrect item'
         
         #They Goofed         
         else:
